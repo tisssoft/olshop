@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.form-container {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 90%;
+    margin: 5px;
+    padding: 8px;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.produk {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.produk img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
