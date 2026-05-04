@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PetShop Pink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐾 PetShop Pink 🐾</h1>
+
+<div class="form-container">
+    <h2>Tambah Produk</h2>
+    <input type="text" id="nama" placeholder="Nama Produk">
+    <input type="text" id="kategori" placeholder="Kategori (Hewan/Makanan/Mainan/Snack)">
+    <input type="number" id="harga" placeholder="Harga">
+    <textarea id="deskripsi" placeholder="Deskripsi Produk"></textarea>
+    <input type="file" id="gambar">
+    <button onclick="tambahProduk()">Tambah Produk</button>
+</div>
+
+<h2>Daftar Produk</h2>
+<div id="produk-list"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
